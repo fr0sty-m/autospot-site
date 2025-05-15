@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Araba Tanıtım Sitesi</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link href="css/custom.css" rel="stylesheet">  
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/32/2640/2640861.png">
+
+</head>
+
+<body>
+
+  <!--Header-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#"><i class="bi bi-speedometer2 me-2"></i>AutoSpot</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+      aria-controls="navbarMenu" aria-expanded="false" aria-label="Menüyü Aç/Kapat">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="iletisim.html">İletişim</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/2560px-Flag_of_Turkey.svg.png" alt="Türk Bayrağı" class="rounded-circle" width="32" height="32">
+</nav>
+
+
+  <!--Main-->
+  <main class="container my-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <!--Card 1-->
+      <div id="cars" class="col">
+          <div class="card h-100">
+            <img src="https://cdn.motor1.com/images/mgl/m6K7e/s1/bmw-e30-m3-by-redux.jpg" alt="BMW E30" class="card-img-top">
+            <div class="card-body">
+              <h5 id="titles" class="card-title">BMW E30 316i</h5>
+              <p class="card-text">Klasik tasarim, arka cekis keyfiyle efsanevi bir model</p>
+
+              <div class="accordion accordion-flush" id="accordionE30">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingE30">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseE30" aria-expanded="false" aria-controls="flush-collapseE30">
+                      Teknik Bilgiler
+                    </button>
+                  </h2>
+                  <div id="flush-collapseE30" class="accordion-collapse collapse" aria-labelledby="flush-headingE30" data-bs-parent="#accordionE30">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled mb-0">
+                        <li><strong>0-100 km/s:</strong> 11.9 saniye</li>
+                        <li><strong>Motor:</strong> 1.6L M10</li>
+                        <li><strong>Çekiş:</strong> Arkadan itiş</li>
+                        <li><strong>Vites:</strong> 5 ileri manuel</li>
+                        <li><strong>Yakıt:</strong> Benzin</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      </div>
+
+      <!--Card 2-->
+      <div id="cars" class="col">
+          <div class="card h-100">
+            <img src="https://www.motortrend.com/uploads/2023/05/2024-Aston-Martin-DBS-770-Ultimate-in-motion-1.jpg" alt="Aston Martin DBS" class="card-img-top"> 
+            <div class="card-body">
+              <h5  id="titles" class="card-title">Aston Martin DBS</h5>
+              <p class="card-text">Saglam Japon muhendisligi</p>
+
+              <div class="accordion accordion-flush" id="accordionDBS">
+               <div class="accordion-item">
+                 <h2 class="accordion-header" id="flush-headingDBS">
+                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseDBS" aria-expanded="false" aria-controls="flush-collapseE30">
+                     Teknik Bilgiler
+                   </button>
+                 </h2>
+                 <div id="flush-collapseDBS" class="accordion-collapse collapse" aria-labelledby="flush-headingDBS" data-bs-parent="#accordion">
+                   <div class="accordion-body">
+                     <ul class="list-unstyled mb-0">
+                       <li><strong>0-100 km/s:</strong> 3.4 saniye</li>
+                       <li><strong>Motor:</strong> 5.2L V12 Twin-Turbo</li>
+                       <li><strong>Çekiş:</strong> Arka İtiş</li>
+                       <li><strong>Vites:</strong> 8 ileri otomatik (ZF)</li>
+                       <li><strong>Yakıt:</strong> Benzin</li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+            </div>
+          </div>
+        </a>
+      </div> 
+      
+      
+      <!--Card 3-->
+      <div id="cars"class="col">
+          <div class="card h-100">
+            <img src="https://www.topgear.com/sites/default/files/2024/08/413A1291.jpg" alt="Ford Mustang 1967" class="card-img-top"> 
+            <div class="card-body">
+              <h5 id="titles" class="card-title">Ford Mustang 1967</h5>
+              <p class="card-text">Amerikan Gucu</p>
+
+              <div class="accordion accordion-flush" id="accordionMustang">
+               <div class="accordion-item">
+                 <h2 class="accordion-header" id="flush-headingMustang">
+                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseMustang" aria-expanded="false" aria-controls="flush-collapseMustang">
+                     Teknik Bilgiler
+                   </button>
+                 </h2>
+                 <div id="flush-collapseMustang" class="accordion-collapse collapse" aria-labelledby="flush-headingMustang" data-bs-parent="#accordion">
+                   <div class="accordion-body">
+                     <ul class="list-unstyled mb-0">
+                       <li><strong>0-100 km/s:</strong> 6.5 saniye</li>
+                       <li><strong>Motor:</strong> 4.7L V8</li>
+                       <li><strong>Çekiş:</strong> Arka İtiş</li>
+                       <li><strong>Vites:</strong> 3 veya 4 ileri manuel/Otomatik secenekli</li>
+                       <li><strong>Yakıt:</strong> Benzin</li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+            </div>
+          </div>
+      </div>
+
+      <!--Card 4-->
+      <div id="cars" class="col">
+          <div class="card h-100">
+            <img src="https://www.topgear.com/sites/default/files/cars-car/image/2019/01/dg019_004clan2kt8c8qmtrmpcl3p72agsepl.jpg" alt="Dodge Challenger" class="card-img-top"> 
+            <div class="card-body">
+              <h5 id="titles" class="card-title">Dodge Challenger</h5>
+              <p class="card-text">Para, kas, intikam, toretto</p>
+
+              <div class="accordion accordion-flush" id="accordionCilingir">
+               <div class="accordion-item">
+                 <h2 class="accordion-header" id="flush-headingCilingir">
+                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseCilingir" aria-expanded="false" aria-controls="flush-collapseCilingir">
+                     Teknik Bilgiler
+                   </button>
+                 </h2>
+                 <div id="flush-collapseCilingir" class="accordion-collapse collapse" aria-labelledby="flush-headingCilingir" data-bs-parent="#accordion">
+                   <div class="accordion-body">
+                     <ul class="list-unstyled mb-0">
+                       <li><strong>0-100 km/s:</strong> 3.6 saniye</li>
+                       <li><strong>Motor:</strong> 6.2L V8 Supercharged (797 hp)</li>
+                       <li><strong>Çekiş:</strong> Arka İtiş</li>
+                       <li><strong>Vites:</strong> 6 ileri manuel veya 8 ileri otomatik</li>
+                       <li><strong>Yakıt:</strong> Benzin</li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+            </div>
+          </div>
+      </div>
+
+      <!--Card 5-->
+      <div id="cars" class="col">
+          <div class="card h-100">
+            <img src="https://cdn.motor1.com/images/mgl/pvwEo/s1/2019-chevrolet-camaro-zl1-1le.jpg" alt="Chevrolet Camaro" class="card-img-top"> 
+            <div class="card-body">
+              <h5 id="titles" class="card-title">Chevrolet Camaro</h5>
+              <p class="card-text">Film efsanesi...</p>
+
+               <div class="accordion accordion-flush" id="accordionCamaro">
+               <div class="accordion-item">
+                 <h2 class="accordion-header" id="flush-headingCamaro">
+                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseCamaro" aria-expanded="false" aria-controls="flush-collapseCamaro">
+                     Teknik Bilgiler
+                   </button>
+                 </h2>
+                 <div id="flush-collapseCamaro" class="accordion-collapse collapse" aria-labelledby="flush-headingCamaro" data-bs-parent="#accordion">
+                   <div class="accordion-body">
+                     <ul class="list-unstyled mb-0">
+                       <li><strong>0-100 km/s:</strong> 4.0 saniye</li>
+                       <li><strong>Motor:</strong> 6.2L V8 (LT1)</li>
+                       <li><strong>Çekiş:</strong> Arka İtiş</li>
+                       <li><strong>Vites:</strong> 6 ileri manuel veya 10 ileri otomatik</li>
+                       <li><strong>Yakıt:</strong> Benzin</li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+             
+
+            </div>
+          </div>
+      </div>
+
+      <!--Card 6-->
+      <div id="cars" class="col">
+          <div class="card h-100">
+            <img src="https://www.topgear.com/sites/default/files/images/cars-road-test/2017/11/0f7d2d2c0e94ef49463baa1ab34a5e82/rp_-_porsche_911_gt2rs_silverstone-41.jpg" alt="Porsche 911 GT2 RS" class="card-img-top"> 
+            <div class="card-body">
+              <h5 id="titles" class="card-title">Porsche 911 GT2 RS</h5>
+              <p class="card-text">Pist makinesi...</p>
+
+               <div class="accordion accordion-flush" id="accordion911">
+               <div class="accordion-item">
+                 <h2 class="accordion-header" id="flush-heading911">
+                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse911" aria-expanded="false" aria-controls="flush-collapse911">
+                     Teknik Bilgiler
+                   </button>
+                 </h2>
+                 <div id="flush-collapse911" class="accordion-collapse collapse" aria-labelledby="flush-heading911" data-bs-parent="#accordion">
+                   <div class="accordion-body">
+                     <ul class="list-unstyled mb-0">
+                       <li><strong>0-100 km/s:</strong> 2.7 saniye</li>
+                       <li><strong>Motor:</strong> 3.8L Flat-6 Twin-Turbo</li>
+                       <li><strong>Çekiş:</strong> Arka İtiş</li>
+                       <li><strong>Vites:</strong> 7 ileri PDK otomatik</li>
+                       <li><strong>Yakıt:</strong> Benzin</li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+            </div>
+          </div>
+      </div>
+
+      <!--Ekle buraya pust-->
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p class="mb-0">&copy; 2025 AutoSpot. Tüm hakları saklıdır.</p>
+  </footer>
+
+  <audio id="muzuk" src="https://www.bensound.com/bensound-music/bensound-slowmotion.mp3" loop preload="auto"></audio>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
